@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -10,17 +9,23 @@
 </head>
 
 <body>
-  <form id="guessform" on submit = "return false;">
-<form action="/action_page.php">
-  <label for="NumberGuess">Guess here</label><br>
-  <input type="text" id="NumberGuess" name="NumberGuess" ><br>
-  <input type="submit" value="Submit">
-</form>
-  </form>
+  <div id="guessing"> 
+  <input type="number" id="numberinput">
+  <input type= "submit" id="guesssubmit">
+  </div>
+  <div id="feedback"></div>
+  
+  <div id="squaredNumber">
+    <input type="number" id="squaredNumberInput">
+    <input type="submit" id="squaredSubmit">
 
+  </div>
+  <div id="squaredFeedback"> </div>
 
-
-  </form>
+  
+  <script src="script.js"></script>
 </body>
 
 </html>
+
+
